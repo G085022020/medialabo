@@ -2,4 +2,8 @@ h1 {
     color: red;
     border-bottom:solid black;
     width: 650px;
+    font-family:fantasy;
+}
+h2 {
+    color: #ddc0ff
 }
