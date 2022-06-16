@@ -1,4 +1,5 @@
 h1 {
     color: red;
-    border: 5px solid blue;
+    border-bottom:solid black;
+    width: 100px;
 }
