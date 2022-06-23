@@ -202,8 +202,7 @@ let data = {
 /////////// 課題3-2 ここからプログラムを書こう
 
 for (let n of data.results){
-	console.log(n.shop.name);
-  console.log(n.shop.name_kana);
+	console.log(n.shop);
 }
 
 
