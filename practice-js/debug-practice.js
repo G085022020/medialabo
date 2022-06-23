@@ -22,8 +22,8 @@ let o;
 
 // (7) オブジェクトや配列ではない値のメンバーと要素	→ undefined （エラーにならない）
 let n = 3;
-console.log(n.x);			// n はオブジェクトではない
-console.log(n[2]);			// n は配列ではない
+console.log(n);			// n はオブジェクトではない
+//console.log(n);			// n は配列ではない
 
 // (8) メンバー名の間違い(その2）       → エラー発生
 let obj2 = {
