@@ -201,3 +201,9 @@ let data = {
 
 /////////// 課題3-2 ここからプログラムを書こう
 
+for (let n of data){
+	console.log(n.name);
+  console.log(n.name_kana);
+}
+
+
