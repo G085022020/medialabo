@@ -14,7 +14,7 @@ hantei();
 
 // ボタンを押した後の処理をする関数 hantei() の定義
 function hantei() {
-    kaisu = kaisu + 1;
+    let kaisu = kaisu + 1;
     let yoso = 4;       // 第5回課題:テキストボックスの数値をここに代入
     console.log(kaisu + "回目の予想" + yoso);
     if (kotae === yoso && kaisu < 4){
@@ -35,4 +35,8 @@ function hantei() {
     // 課題3-1：ここの判定処理を作成する．。
     //        ページに表示する方法はまだ習っていないので
     //        判定結果はコンソールに出力すること
+    let s = document.querySelector('span#kaisu');
+    s.textContent = kaisu;
+    let p = document.querySelector('span#yoso');
+    s.textContent = yoso;
 }
