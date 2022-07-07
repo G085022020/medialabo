@@ -35,8 +35,12 @@ function hantei() {
     // 課題3-1：ここの判定処理を作成する．。
     //        ページに表示する方法はまだ習っていないので
     //        判定結果はコンソールに出力すること
-    let s = document.querySelector('span#kaisu');
-    s.textContent = kaisu;
-    let p = document.querySelector('span#yoso');
-    s.textContent = yoso;
+    
 }
+
+let s = document.querySelector('span#kaisu');
+s.textContent = kaisu;
+let p = document.querySelector('span#yoso');
+p.textContent = yoso;
+let q = document.querySelector('p#result');
+q.textContent = result;
